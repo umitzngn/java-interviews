@@ -19,8 +19,17 @@ http://stackoverflow.com/questions/1673841/examples-of-gof-design-patterns
     TODO: find a good example
 
 3. What are wrapper classes? Why do we need wrapper classes?  
-
-
+    Wrapper classes are prebuild classes inside java.lang and encapsulate primitive Java types as below:
+        boolean -Boolean
+        byte    -Byte
+        short   -Short
+        char    -Character
+        int     -Integer
+        long    -Long
+        float   -Float
+        double  -Double
+All these wrapper classes support autoboxing and unboxing i.e conversion from primitive to wrapper and vice-versa.
+Wrappers specially come into picture when we need to replace primitives with Ojects for example in Generics.
 
 4. Can you please explain Strategy design pattern?
 
